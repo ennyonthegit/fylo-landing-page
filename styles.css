@@ -11,12 +11,12 @@ html {
     color: #07043B;
     font-size: 16px;
     font-weight: 400;
-    font-family: Raleway;
+    font-family: 'Raleway';
 }
 
 li {
     list-style: none;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 16px;
     font-weight: 400;
     line-height: 18.78px;
@@ -31,7 +31,8 @@ li {
 }
 
 
-.menu .text {
+.menu .logo-name{
+    font-family: 'Raleway';
     font-size: 40px;
     margin-left: 16px;
     font-weight: bold;
@@ -54,6 +55,7 @@ li {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
+    padding-left: 0px;
 }
 
 .right-section ul li:nth-child(2) {
@@ -73,24 +75,55 @@ li {
 .content-1 .left-side {
     display: flex;
     flex-direction: column;
-    width: 606px;
+    width: 47%
+}
 
+.content-1 .right-side {
+    display: flex;
+}
+
+.illustration-1 {
+    height: auto;
+    width: 100%;
 }
 
 .content-1 .text-info h2 {
+    font-family: 'Raleway';
     font-size: 40px;
+    font-weight: 700;
     line-height: 60px;
+    color: #07043B;
 }
 
 .content-1 .text-info p {
+    font-family: 'Open Sans';
     font-size: 17px;
+    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.53px;
+    letter-spacing: 0.53125px;
+    color: #07043B;
 }
 
 .content-1 .email-form input {
-    width: 320px;
-    height: 40px;
+    border: 0;
+    border: 1px solid #07043B;
+    box-shadow: 2px 3px 6px 0px #00000029;
+    border-radius: 5px;
+    padding: 14px 172px 12px 21px;
+
+}
+
+.content-1 .email-form input[type=email] {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    letter-spacing: 0.46666669845581055px;
+    box-sizing: border-box;
+}
+
+.content-1 .email-form input[type=email]:focus {
+    outline: none;
 }
 
 .content-1 .email-form button {
@@ -101,6 +134,11 @@ li {
     border: 0;
     font-size: 14px;
     border-radius: 2px;
+    box-shadow: 2px 3px 6px 0px #00000029;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.44px;
 }
 
 .email-form {
@@ -111,57 +149,75 @@ li {
     margin-top: 25px;
 }
 
-.content-2 .right-side {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.illustration-1 {
-    width: 100%;
-    height: 474px;
-}
-
 /*content-2*/
 
 .content-2 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 284px 80px 0px 80px;
 }
 
 .content-2 .left-side {
     display: flex;
     flex-direction: column;
+    width: 51%;
+}
+
+.content-2 .background-image img {
+    width: 100%;
+    background-color: red;
+}
+
+.background-img {
+    background-image: url(/imgs/Rectangle.png);
+    background-repeat: no-repeat;
+    margin-top: 164px;
+    padding-top: 178px;
+    background-size: cover;
+}
+
+.content-2 .right-side .illustration-2 {
+    width: 100%;
 }
 
 .content-2 .left-side .text-info {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
-.content-2 .left-side .text-info h2 {
-    font-family: Raleway;
+
+.content-2 .group-1 .heading {
+    width: 102%;
+}
+
+
+.content-2 .group-1 .heading h2 {
+    font-family: 'Raleway';
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
+    color: #07043B;
+}
+
+.content-2 .group-1 .paragraphs {
+    width: 79%;
 }
 
 
-.content-2 .left-side .text-info p {
-    font-family: Open Sans;
+.content-2 .group-1 p {
+    font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.content-2 .left-side .text-info .group-2 a {
+.content-2 .group-2 a {
     display: flex;
     flex-direction: row;
     gap: 8px;
     text-decoration: none;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 21.79px;
@@ -169,8 +225,12 @@ li {
 }
 
 .content-2 .box {
-    border: 2px solid red;
     margin-top: 45px;
+    background-color: #FFFFFF;
+    width: 45%;
+    padding: 49px 42px 26px 33px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #3838380C;
 }
 
 .content-2 .box .child-box {
@@ -181,7 +241,7 @@ li {
 
 
 .content-2 .box p {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 13px;
     font-weight: 400;
     line-height: 23px;
@@ -190,10 +250,41 @@ li {
 
 }
 
+.content-2 .box .paragraph p {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
 .content-2 .box .child-box .info {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-left: 8px;
+}
+
+.content-2 .box-top-icon img {
+    width: 18px;
+}
+
+.content-2 .info .name {
+    font-family: 'Open Sans';
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14.98px;
+    letter-spacing: 0.550000011920929px;
+    color: #07043B;
+}
+
+.content-2 .info .position {
+    font-family: 'Open Sans';
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    color: #07043B;
 
 }
