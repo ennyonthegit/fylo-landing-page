@@ -31,7 +31,7 @@ li {
 }
 
 
-.menu .logo-name{
+.menu .logo-name {
     font-family: 'Raleway';
     font-size: 40px;
     margin-left: 16px;
@@ -129,11 +129,7 @@ li {
 .content-1 .email-form button {
     width: 200px;
     height: 45px;
-    background-color: #2F65F8;
-    color: #FFFFFF;
-    border: 0;
     font-size: 14px;
-    border-radius: 2px;
     box-shadow: 2px 3px 6px 0px #00000029;
     font-family: 'Raleway';
     font-size: 14px;
@@ -156,6 +152,7 @@ li {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 284px 80px 0px 80px;
+    padding-top: 178px;
 }
 
 .content-2 .left-side {
@@ -173,7 +170,6 @@ li {
     background-image: url(/imgs/Rectangle.png);
     background-repeat: no-repeat;
     margin-top: 164px;
-    padding-top: 178px;
     background-size: cover;
 }
 
@@ -202,6 +198,8 @@ li {
 
 .content-2 .group-1 .paragraphs {
     width: 79%;
+    margin-top: 38px;
+    margin-bottom: 15px;
 }
 
 
@@ -210,6 +208,7 @@ li {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    color: #07043B;
 }
 
 .content-2 .group-2 a {
@@ -228,9 +227,10 @@ li {
     margin-top: 45px;
     background-color: #FFFFFF;
     width: 45%;
-    padding: 49px 42px 26px 33px;
+    padding: 12px 42px 26px 33px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 5px #3838380C;
+    margin-bottom: 107px;
 }
 
 .content-2 .box .child-box {
@@ -257,6 +257,8 @@ li {
     line-height: 23px;
     letter-spacing: 0.5px;
     text-align: left;
+    padding: 12px 0px 16px 0px;
+    margin-bottom: 0px;
 }
 
 .content-2 .box .child-box .info {
@@ -287,4 +289,78 @@ li {
     letter-spacing: 0.4000000059604645px;
     color: #07043B;
 
+}
+
+
+/*third section*/
+
+.third-section-background {
+    background-color: #575988;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 120px 85px 120px;
+}
+
+.third-section h3 {
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.third-section .header{
+    margin-bottom: 16px;
+}
+
+.third-section p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.third-section .paragraph {
+    width: 60%;
+}
+
+.third-section .column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.third-section .column-2 input{
+    border: 0;
+    border: 1px solid #07043B;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 6px 0px #07043B28;
+
+}
+
+.third-section .column-2 input[type="text"] {
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.09px;
+    padding: 16px 224px 18px 22px;
+}
+
+.third-section .column-2 input[type="text"]:hover{
+    outline: none;
+}
+
+.third-section .column-2 button {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.44px;
+    padding: 16px 22px 16px 22px;
+    width: 200px;
 }
